@@ -30,7 +30,32 @@ Kemudian, tambahkan deklarasi inline CSS pada tag `<p>`
 Save kembali dan refresh di browser. Dan lihat lah perubahannya
 ![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/a1f62de6-e9ea-4ba8-9439-e33bc0da12af)
 
-### 4. Membuat CSS Eksternal
+## 4. Membuat CSS Eksternal
+
+### > Kita buat file baru dengan nama file `style_eksternal.css`. kemudian buat deklarasi css sebagai berikut:
+
+![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/1f460430-730a-4367-929f-2f7935bd97c9)
+
+### > Kemudian, tambahkan tag `<link>` untuk memanggil file css yang sudah dibuat tadi pada bagian `<head>` di file css.
+
+![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/1c5158ea-8614-4f8f-b5fc-2502955d0a35)
+
+### > Dan inilah Output atau Hasil dari deklarasi css diatas:
+
+![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/ab5a8db3-3906-49cb-9706-71a72661fd50)
+
+## 5. Menambahkan CSS Selector
+
+### > Selanjutnya, menambahkan CSS Selector menggunakan ID dan Class Selector pada file `style_eksternal.css` yang sebelumnya kita buat. lalu tambahkan kode berikut:
+
+![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/f0c12875-5db7-4a4e-8747-782676b8e59e)
+
+### > Output nya sebagai berikut:
+
+![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/9f056b35-f7ac-464c-bf29-ebe6b50e8fa6)
+
+
+
 
 
 

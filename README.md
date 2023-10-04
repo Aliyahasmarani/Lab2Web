@@ -95,6 +95,25 @@ Jika kita memakai keduanya, maka yang akan muncul hanya yang di inline. yang die
 
 ### 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! `( <p id="paragraf-1" class="text-paragraf"> )`
 
+```
+Ketika sebuah elemen HTML memiliki ID dan class, CSS akan mengatur tampilan elemen tersebut berdasarkan kedua selector tersebut. Namun, ada aturan prioritas yang menentukan deklarasi mana yang akan diaplikasikan oleh browser. Aturan ini disebut "Specificity."
+```
+
+CONTOH:
+
+Code HTML:
+![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/7e13b29e-0565-4e49-acdf-ed37f8c35bf6)
+
+Code CSS:
+![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/f8613e3a-9f0f-42e5-ab1f-d4f886d7610a)
+
+Output:
+![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/33e190fe-0733-4540-a373-bbb18e9e451e)
+
+```
+Dalam contoh ini, teks pada elemen <p> akan ditampilkan dengan warna biru karena deklarasi CSS yang menggunakan ID memiliki spesifikitas lebih tinggi daripada deklarasi yang menggunakan class. Jadi, browser akan mengikuti aturan spesifikitas CSS dan mengaplikasikan deklarasi CSS dengan ID.
+```
+
 
 
 

@@ -54,6 +54,51 @@ Save kembali dan refresh di browser. Dan lihat lah perubahannya
 
 ![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/9f056b35-f7ac-464c-bf29-ebe6b50e8fa6)
 
+## PERTANYAAN DAN TUGAS
+
+### 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini
+
+```
+Saya disini mencoba menaruh logo Universitas Pelita Bangsa di bagian kanan kiri header.
+```
+Input:
+
+![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/26ea1531-f0be-4eb2-a509-bd6c23ac191d)
+
+Output:
+
+![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/dfb42162-b63b-4cc2-b814-781f2884d2bd)
+
+### 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+
+```
+Perbedaannya sangat signifikan diantara pendeklarasi CSS elemen h1 dengan #intro h1
+Kalau Mendeklarasi hi {...} : Ini berarti setiap elemen <h1> akan diberi gaya yang sama sesuai dengan aturan yang diberikan dalam deklarasi tersebut.
+
+> Kalau Mendeklarasi #intro h1 {...} : Deklarasi CSS ini akan mempengaruhi elemen <h1> yang terdapat dalam elemen dengan ID "intro". Dalam hal ini, elemen <h1> hanya akan menerima aturan gaya jika mereka berada dalam struktur hierarki di bawah elemen dengan ID "intro". Ini berarti elemen-elemen <h1> yang berada di luar struktur ini tidak akan terpengaruh oleh aturan gaya ini.
+```
+
+### 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+```
+Singkatnya, urutan prioritas penampilan CSS adalah: Inline CSS > Internal CSS > External CSS. Namun, dalam semua kasus, urutan dalam dokumen HTML juga dapat mempengaruhi bagaimana CSS diterapkan jika tingkat spesifikasitasnya sama.
+```
+
+Contohnya sebagai berikut:
+
+Code Inline:
+![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/4dae4398-52aa-4f5c-aa3d-d90cec184149)
+
+Code Eskternal:
+![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/128266e6-1cca-49f7-97b9-24945a62f4a2)
+
+Jika kita memakai keduanya, maka yang akan muncul hanya yang di inline. yang dieksternal tidak akan terpakai.
+
+### 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )
+
+
+
+
+
 
 
 

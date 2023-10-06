@@ -89,6 +89,7 @@ Code Inline:
 ![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/4dae4398-52aa-4f5c-aa3d-d90cec184149)
 
 Code Eskternal:
+
 ![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/128266e6-1cca-49f7-97b9-24945a62f4a2)
 
 Jika kita memakai keduanya, maka yang akan muncul hanya yang di inline. yang dieksternal tidak akan terpakai.

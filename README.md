@@ -86,6 +86,7 @@ Singkatnya, urutan prioritas penampilan CSS adalah: Inline CSS > Internal CSS > 
 Contohnya sebagai berikut:
 
 Code Inline:
+
 ![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/4dae4398-52aa-4f5c-aa3d-d90cec184149)
 
 Code Eskternal:
@@ -103,12 +104,15 @@ Ketika sebuah elemen HTML memiliki ID dan class, CSS akan mengatur tampilan elem
 CONTOH:
 
 Code HTML:
+
 ![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/7e13b29e-0565-4e49-acdf-ed37f8c35bf6)
 
 Code CSS:
+
 ![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/f8613e3a-9f0f-42e5-ab1f-d4f886d7610a)
 
 Output:
+
 ![image](https://github.com/Aliyahasmarani/Lab2Web/assets/115197672/33e190fe-0733-4540-a373-bbb18e9e451e)
 
 ```
